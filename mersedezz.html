@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color:blue;
+                display: flex;
+                font-size: 60px;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+
+            }
+            .dancer{
+                animation:dance 2s infinite ease-in-out;
+                transform-origin: bottom center;
+            }
+            @keyframes dance {
+                0%{
+                    transform:rotate(-180deg);
+                    transform(0);
+                }
+                100%{
+                    transform: rotate(360deg) translatey(-50px);
+                }
+            }
+        </style>
+    </head>
+<body>
+    <div class="dancer">
+        <p>&#128511</p>
+        <p>&#128515</p>
+        <p>&#128517</p>
+        <p>&#128518</p>
+        </div>
+    </body>
+    </html>
